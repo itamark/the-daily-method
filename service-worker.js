@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/the-daily-method/precache-manifest.62753b9044669badf46de262842ff91d.js"
+  "https://itamark.github.io/the-daily-method/precache-manifest.d6c40cec3059e7a55f5cc979f5091ece.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/the-daily-method/index.html", {
+workbox.routing.registerNavigationRoute("https://itamark.github.io/the-daily-method/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
