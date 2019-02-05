@@ -22,4 +22,12 @@ header div{
 header button {
     color: white;
     font-size:20px;
+    background:#171738;
+    border: 0;
+}
+
+.CalendarContainer section{
+    margin: 10px auto;
+    padding: 0px 10px;
+    max-width: 500px;
 }
