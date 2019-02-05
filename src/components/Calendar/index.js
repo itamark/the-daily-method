@@ -5,7 +5,7 @@ import methods from '../../data/methods';
 import { getDay, incrementDate, decrementDate } from '../../helpers/dateHelper';
 import './style.css';
 
-export default class Index extends Component {
+export default class Calendar extends Component {
     state = {
         date: new Date(),
         day: getDay(this.date),
