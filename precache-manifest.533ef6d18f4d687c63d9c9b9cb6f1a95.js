@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "https://itamark.github.io/the-daily-method/static/css/main.e481c6a2.chunk.css"
   },
   {
-    "revision": "3c24e766290841804999a20ec49a164f",
+    "revision": "804509a40f49f87bae1fddb01eb4efdb",
     "url": "https://itamark.github.io/the-daily-method/index.html"
   }
 ];
