@@ -1,0 +1,25 @@
+header{
+    flex: 0;
+    display:flex;
+    background:#171738;
+    color: white;
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+}
+
+.CalendarContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+header div{
+    flex: 0 1 50%;
+    text-align: center;
+}
+
+header button {
+    color: white;
+    font-size:20px;
+}
