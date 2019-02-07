@@ -1,50 +1,33 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import DateDisplay from '../DateDisplay';
 import Method from '../Method';
 import methods from '../../data/methods';
 import { getDay, incrementDate, decrementDate } from '../../helpers/dateHelper';
 import './style.css';
 
-export default class Calendar extends Component {
-    state = {
-        date: new Date(),
-        day: getDay(this.date),
-        method: {},
-    };
+export default function Calendar() {
+    const [date, setDate] = useState(new Date());
+    const [day, setDay] = useState(getDay(date));
+    const [method, setMethod] = useState({});
 
-    updateMethod = () => {
-        this.setState({ method: methods(this.state.day) });
-    }
+    useEffect(() => {
+        setMethod(methods(day));
+    }, [day]);
 
-    updateDay = () => {
-        this.setState({ day: getDay(this.state.date) }, this.updateMethod);
-    }
+    useEffect(() => {
+        setDay(getDay(date));
+    }, [date]);
 
-    increment = () => {
-        this.setState({ date: incrementDate(this.state.date) }, this.updateDay);
-    }
-
-    decrement = () => {
-        this.setState({ date: decrementDate(this.state.date) }, this.updateDay);
-    }
-
-    componentDidMount(){
-        this.updateMethod();
-    }
-
-    render() {
-        const { date, method } = this.state;
-        return (
-            <div className="CalendarContainer">
-                <header>
-                    <button onClick={this.decrement}>-</button>
-                    <DateDisplay date={date} />
-                    <button onClick={this.increment}>+</button>
-                </header>
-                <section>
-                    <Method method={method} />
-                </section>
-            </div>
-        );
-    }
+    return (
+        <div className="CalendarContainer">
+            <header>
+                <button onClick={() => setDate(decrementDate(date))}>-</button>
+                <DateDisplay date={date} />
+                <button onClick={() => setDate(incrementDate(date))}>+</button>
+            </header>
+            <section>
+                <Method method={method} />
+            </section>
+        </div>
+    );
 }

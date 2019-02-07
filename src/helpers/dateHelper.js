@@ -7,13 +7,11 @@ export function getDay(now = new Date()){
 }
 
 export function incrementDate(date = new Date()){
-    date.setDate(date.getDate()+1);
-    return date;
+    return new Date(date.getTime() + 24 * 60 * 60 * 1000);
 }
 
 export function decrementDate(date = new Date()){
-    date.setDate(date.getDate()-1);
-    return date;
+    return new Date(date.getTime() - 24 * 60 * 60 * 1000);
 }
 
 export default getDay
