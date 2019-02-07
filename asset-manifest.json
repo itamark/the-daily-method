@@ -1,13 +1,13 @@
 {
-  "main.css": "https://itamark.github.io/the-daily-method/static/css/main.e481c6a2.chunk.css",
-  "main.js": "https://itamark.github.io/the-daily-method/static/js/main.8ad75734.chunk.js",
-  "main.js.map": "https://itamark.github.io/the-daily-method/static/js/main.8ad75734.chunk.js.map",
-  "static/js/1.f739feb7.chunk.js": "https://itamark.github.io/the-daily-method/static/js/1.f739feb7.chunk.js",
-  "static/js/1.f739feb7.chunk.js.map": "https://itamark.github.io/the-daily-method/static/js/1.f739feb7.chunk.js.map",
-  "runtime~main.js": "https://itamark.github.io/the-daily-method/static/js/runtime~main.177bec22.js",
-  "runtime~main.js.map": "https://itamark.github.io/the-daily-method/static/js/runtime~main.177bec22.js.map",
-  "static/css/main.e481c6a2.chunk.css.map": "https://itamark.github.io/the-daily-method/static/css/main.e481c6a2.chunk.css.map",
-  "index.html": "https://itamark.github.io/the-daily-method/index.html",
-  "precache-manifest.533ef6d18f4d687c63d9c9b9cb6f1a95.js": "https://itamark.github.io/the-daily-method/precache-manifest.533ef6d18f4d687c63d9c9b9cb6f1a95.js",
-  "service-worker.js": "https://itamark.github.io/the-daily-method/service-worker.js"
+  "main.css": "/static/css/main.7033c039.chunk.css",
+  "main.js": "/static/js/main.8fa98e1b.chunk.js",
+  "main.js.map": "/static/js/main.8fa98e1b.chunk.js.map",
+  "static/js/1.f03e8ae8.chunk.js": "/static/js/1.f03e8ae8.chunk.js",
+  "static/js/1.f03e8ae8.chunk.js.map": "/static/js/1.f03e8ae8.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.7033c039.chunk.css.map": "/static/css/main.7033c039.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.6cb324aad957616bcf8852bfa9d34f4b.js": "/precache-manifest.6cb324aad957616bcf8852bfa9d34f4b.js",
+  "service-worker.js": "/service-worker.js"
 }
