@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <section>
           <Calendar />
-          <a target="_blank" title="Contribute" href="https://github.com/itamark/the-daily-method"><img className="githubImage" src={Github}></img></a>
+          <a target="_blank" rel="noopener noreferrer" title="Contribute" href="https://github.com/itamark/the-daily-method"><img className="githubImage" src={Github}></img></a>
         </section>
       </div>
     );
