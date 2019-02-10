@@ -8,7 +8,7 @@ import './style.css';
 export default class Calendar extends Component {
     state = {
         date: new Date(),
-        day: getDay(this.date),
+        day: getDay(this.date), 
         method: {},
     };
 
