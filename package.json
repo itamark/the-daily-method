@@ -6,8 +6,8 @@
     "cheerio": "^1.0.0-rc.2",
     "gh-pages": "^2.0.1",
     "node-fetch": "^2.3.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
     "react-scripts": "2.1.3"
   },
   "homepage": "https://itamark.github.io/the-daily-method/",
